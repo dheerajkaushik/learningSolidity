@@ -2,17 +2,17 @@ pragma solidity 0.8.0;
 
 contract Challenge4{
     uint public A=74;
-    uint public S=38;
+    uint public B=38;
     function add() public view returns(uint){
-        return A+S;
+        return A+B;
     }
     function sub() public view returns(uint){
-        return A-S;
+        return A-B;
     }
     function prod() public view returns(uint){
-        return A*S;
+        return A*B;
     }
     function div() public view returns(uint){
-        return A/S;
+        return A/B;
     }
 }
